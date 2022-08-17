@@ -1,7 +1,7 @@
 public class FighterTestDrive {
     public static void main(String[] args){
-        Fighter f1 = new Fighter("Ko Yurim",20,100,57,40,2);
-        Fighter f2 = new Fighter("Na Hedo",25,100,60,20,1);
+        Fighter f1 = new Fighter("A",20,100,57,40,2);
+        Fighter f2 = new Fighter("B",25,100,60,20,1);
 
         Match match = new Match(f1,f2,50,60);
         match.run();
