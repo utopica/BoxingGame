@@ -39,7 +39,7 @@ public class Fighter {
     }
 
     boolean isFirst(){
-        int randomNumber = (int) (Math.random()*3);
+        int randomNumber = (int) (Math.random()*2);
         return  randomNumber == this.firstPlayer;
     }
 
